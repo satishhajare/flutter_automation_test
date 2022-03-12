@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "636169291977",
+    "project_id": "flutter-automation-poc",
+    "storage_bucket": "flutter-automation-poc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636169291977:android:c20f6b3a3f019fae826518",
+        "android_client_info": {
+          "package_name": "com.example.flutter_automation_poc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636169291977-7p937flhjub2vj9hk882b8ds5gpa4luk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMOfnf8FbXtUuILc5d--hoYot5dhoGO18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636169291977-7p937flhjub2vj9hk882b8ds5gpa4luk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
