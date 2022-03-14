@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Technology',
+      debugShowCheckedModeBanner: false,
       home: ChangeNotifierProvider(
         create: (_) => TechnologyModel(),
         child: FutureBuilder<User?>(
