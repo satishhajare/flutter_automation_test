@@ -35,7 +35,6 @@ void main() {
       await Firebase.initializeApp();
       await tester.pumpWidget(MyApp());
       await tester.pumpAndSettle();
-
       /*Sign Up*/
       await tester.tap(find.byType(TextButton));
       tester.printToConsole('SignUp screen opens');
@@ -58,7 +57,6 @@ void main() {
       await logout(tester);
     });
 
-    //Login screen test
     testWidgets('Modifying Features test', (WidgetTester tester) async {
       await Firebase.initializeApp();
       await tester.pumpWidget(MyApp());
@@ -74,7 +72,7 @@ void main() {
 
       await tester.tap(find.byType(FloatingActionButton));
       await addDelay(2000);
-      tester.printToConsole('New Technology screen opens');
+      tester.printToConsole('Technology screen opens');
       await tester.pumpAndSettle();
     });
   });
